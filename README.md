@@ -509,7 +509,7 @@ bypass both to reach the server.
 ### What a SOC Analyst Does Regularly
 
 These checks should be run regularly:
-
+```
 Weekly:
 cat /etc/passwd — check for new accounts
 cat /etc/group | grep sudo — check sudo members
@@ -519,7 +519,7 @@ Monthly:
 sudo systemctl list-units --type=service --state=running
 sudo ss -tlnp
 sudo ufw status
-
+```
 
 ---
 
