@@ -82,10 +82,6 @@ on need. Remove or disable unnecessary services.
 
 ---
 
-## 🏗️ Architecture
-
-![Architecture Diagram](architecture_diagram.png)
-
 ### Hardening Areas Covered
 
 ```
@@ -120,15 +116,6 @@ Ubuntu Server 192.168.20.101
     ├── Allow Syslog (5514/udp)
     └── Block everything else
 ```
-
----
-
-## 📁 Project Files
-
-| File | Purpose |
-|---|---|
-| screenshots/ | Evidence of all hardening steps |
-| README.md | Full documentation and replication guide |
 
 ---
 
